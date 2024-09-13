@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkcyan;
+    margin: 0;
+}
+
+.clock {
+    background-color:hotpink ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#time {
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
